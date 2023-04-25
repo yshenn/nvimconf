@@ -12,6 +12,7 @@ require("plugin-config.lualine")
 require("plugin-config.bufferline")
 require("plugin-config.treesitter")
 require("plugin-config.nvimtree")
+require("plugin-config.telescope")
 --require("plugin-config.mason")
 
 -- lsp config

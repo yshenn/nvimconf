@@ -35,6 +35,11 @@ map('n', '<leader>u', 'viwU', {noremap = true})
 -- ****** insert mode *******
 map('i', 'jk', '<esc>', {noremap = true, desc = 'map <esc> to jk'})
 map('i', '<c-d>', '<esc>ddi', {noremap = true})
+map('i', '\'', '\'\'<esc>i', {noremap = true})
+map('i', '\"', '\"\"<esc>i', {noremap = true})
+map('i', '(', '()<esc>i', {noremap = true})
+map('i', '[', '[]<esc>i', {noremap = true})
+map('i', '{', '{}<esc>i', {noremap = true})
 --map('i', '<c-u>', '<esc>viwUA', {desc = "change the current word into uppercase"})
 
 
@@ -66,5 +71,10 @@ vim.keymap.set('n', 'ff', builtin.find_files, {})
 vim.keymap.set('n', 'fg', builtin.live_grep, {})
 vim.keymap.set('n', 'fb', builtin.buffers, {})
 vim.keymap.set('n', 'fh', builtin.help_tags, {})
-
+--vim.api.nvim_set_keymap(
+--  "n",
+--  "<space>fb",
+--  ":Telescope file_browser",
+--  { noremap = true }
+--)
 

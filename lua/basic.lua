@@ -14,7 +14,10 @@ vim.opt.softtabstop = 2
 vim.opt.expandtab = true
 
 vim.opt.shiftround = true
---vim.opt.termguicolors = true
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
+vim.opt.termguicolors = true
+
+-- clipboard
+vim.opt.clipboard:append { 'unnamedplus' }
