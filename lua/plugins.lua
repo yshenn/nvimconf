@@ -50,6 +50,9 @@ return require("packer").startup(function()
   -- nvim-tree
   use('nvim-tree/nvim-tree.lua')
 
+  --fcitx
+  use 'h-hg/fcitx.nvim'
+
   -- LSP
   use {
     'VonHeikemen/lsp-zero.nvim',

@@ -21,3 +21,7 @@ vim.opt.termguicolors = true
 
 -- clipboard
 vim.opt.clipboard:append { 'unnamedplus' }
+
+
+-- command
+--command! LuaSnipEdit :lua require("luasnip.loaders").edit_snippet_files()

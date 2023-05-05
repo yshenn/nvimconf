@@ -1,0 +1,16 @@
+{
+  "snip1": {
+    "prefix": "test1",
+    "body": [
+      "test expands $1 $2"
+    ]
+  },
+  "snip2": {
+    "prefix": "test2",
+    "body": [
+      "pos1 $1",
+      "pos2 $2",
+      "pos3$0"
+    ]
+  }
+}
